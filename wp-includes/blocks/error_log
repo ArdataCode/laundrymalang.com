@@ -1,0 +1,12 @@
+[27-Feb-2024 03:24:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/laundrymalang.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/laundrymalang.com/wp-includes/blocks/index.php on line 8
+[27-Feb-2024 07:37:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/laundrymalang.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/laundrymalang.com/wp-includes/blocks/index.php on line 8
+[27-Mar-2024 11:48:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/laundrymalang.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/laundrymalang.com/wp-includes/blocks/index.php on line 8

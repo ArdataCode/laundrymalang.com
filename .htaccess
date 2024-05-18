@@ -1,0 +1,23 @@
+# This file was updated by Duplicator Pro on 2023-02-27 06:32:16.
+# See the original_files_ folder for the original source_site_htaccess file.
+# BEGIN WordPress
+# Arahan (baris) antara "BEGIN WordPress" dan "END WordPress"
+# dihasilkan secara dinamis, dan hanya dapat dimodifikasi melalui filter WordPress.
+# Setiap perubahan pada arahan di antara penanda berikut akan ditimpa.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+#redirect http to https
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+Header always set Content-Security-Policy "upgrade-insecure-requests;"
+
+# END WordPress

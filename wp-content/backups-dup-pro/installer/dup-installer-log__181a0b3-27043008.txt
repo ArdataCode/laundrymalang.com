@@ -1,0 +1,1428 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-0 START @ 06:26:12
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |Linux
+PHP VERSION_________: 7.4.32                                |7.4.33
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 7.4.33 | SAPI: litespeed
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: LiteSpeed
+DOC ROOT____________: "/home/jawa2439/public_html/laundrymalang.com"
+REQUEST URL_________: "https://laundrymalang.com"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[cpnl-dbaction]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "/home/jawa2439/public_html/laundrymalang.com"
+URL_NEW_____________: "https://laundrymalang.com"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "/home/jawa2439/public_html/laundrymalang.com/20230227_cucispringbeddancucisofama_[HASH]_20230227043008_archive.zip"
+ARCHIVE SIZE________: 227.47MB
+CREATED_____________: 2023-02-27 04:30:08
+WP VERSION__________: 6.1.1
+DUP VERSION_________: 4.5.7
+LICENSE_____________: Business or Gold
+DB VERSION__________: 10.4.20
+DB FILE SIZE________: 53.14MB
+DB TABLES___________: 57
+DB ROWS_____________: 20046
+URL HOME____________: https://laundrymalang.com
+URL CORE____________: https://laundrymalang.com
+URL CONTENT_________: https://laundrymalang.com/wp-content
+URL UPLOAD__________: https://laundrymalang.com/wp-content/uploads
+URL PLUGINS_________: https://laundrymalang.com/wp-content/plugins
+URL MU PLUGINS______: https://laundrymalang.com/wp-content/mu-plugins
+URL THEMES__________: https://laundrymalang.com/wp-content/themes
+PATH HOME___________: /home/900667.cloudwaysapps.com/tpvbmytuxe/public_html
+PATH ABS____________: /home/900667.cloudwaysapps.com/tpvbmytuxe/public_html
+PATH WPCONFIG_______: /home/900667.cloudwaysapps.com/tpvbmytuxe/public_html
+PATH WPCONTENT______: /home/900667.cloudwaysapps.com/tpvbmytuxe/public_html/wp-content
+PATH UPLOADS________: /home/900667.cloudwaysapps.com/tpvbmytuxe/public_html/wp-content/uploads
+PATH PLUGINS________: /home/900667.cloudwaysapps.com/tpvbmytuxe/public_html/wp-content/plugins
+PATH MUPLUGINS______: /home/900667.cloudwaysapps.com/tpvbmytuxe/public_html/wp-content/mu-plugins
+PATH THEMES_________: /home/900667.cloudwaysapps.com/tpvbmytuxe/public_html/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "laundrymalang.com/"
+
+PLUGINS
+PLUGIN [SLUG:classic-editor/classic-editor.php                 ][ON:true ]  Classic Editor
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:false]  Duplicator
+PLUGIN [SLUG:duplicator-pro/duplicator-pro.php                 ][ON:true ]  Duplicator Pro
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:true ]  Elementor
+PLUGIN [SLUG:elementor-pro/elementor-pro.php                   ][ON:true ]  Elementor Pro
+PLUGIN [SLUG:envato-elements/envato-elements.php               ][ON:true ]  Envato Elements
+PLUGIN [SLUG:creame-whatsapp-me/joinchat.php                   ][ON:true ]  Joinchat
+PLUGIN [SLUG:malcare-security/malcare.php                      ][ON:true ]  MalCare WordPress Security Plugin - Malware Scanner, Cleaner, Security Firewall
+PLUGIN [SLUG:really-simple-ssl/rlrsssl-really-simple-ssl.php   ][ON:true ]  Really Simple SSL
+PLUGIN [SLUG:wordpress-seo/wp-seo.php                          ][ON:true ]  Yoast SEO
+
+********************************************************************************
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/ctrls/ctrl.base.php:232][DELTA:   0.15583]  MESSAGE:END RENDER PAGE
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/ctrls/ctrl.base.php:232][DELTA:   0.04442]  MESSAGE:END RENDER PAGE
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Subomain multisite installation in subfolder" [CLASS: DUPX_Validation_test_multisite_subfolder]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Subomain multisite installation in subfolder" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+LOG-TIME[DELTA:   0.00750]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Functions and Classes" [CLASS: DUPX_Validation_test_php_functionalities]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Functions and Classes" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00042]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.01049]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Cpanel connection" [CLASS: DUPX_Validation_test_cpnl_connection]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Cpanel connection" RESULT: skip
+
+START TEST "Create Database User" [CLASS: DUPX_Validation_test_cpnl_new_user]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Create Database User" RESULT: skip
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00119]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00177]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00015]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00071]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WP Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00036]  MESSAGE:TEST "Multiple WP Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+DB QUERY [ERROR][/home/jawa2439/public_html/laundrymalang.com/dup-installer/classes/database/class.db.php:646] MSG: SELECT command denied to user 'jawa2439_userr'@'localhost' for table 'user'
+	SQL: SELECT max_questions, max_updates, max_connections FROM mysql.user WHERE user = 'jawa2439_userr' AND host = 'localhost'
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: /home/jawa2439/public_html/laundrymalang.com/dup-installer/classes/validation/class.validation.database.service.php[979]
+TRACE[2] CLASS___: DUPX_Validation_database_service->getUserResources FILE: /home/jawa2439/public_html/laundrymalang.com/dup-installer/classes/validation/database-tests/class.validation.test.db.user.resources.php[28]
+TRACE[3] CLASS___: DUPX_Validation_test_db_user_resources->runTest FILE: /home/jawa2439/public_html/laundrymalang.com/dup-installer/classes/validation/class.validation.abstract.item.php[46]
+TRACE[4] CLASS___: DUPX_Validation_abstract_item->test FILE: /home/jawa2439/public_html/laundrymalang.com/dup-installer/classes/validation/class.validation.manager.php[237]
+TRACE[5] CLASS___: DUPX_Validation_manager->runTests FILE: /home/jawa2439/public_html/laundrymalang.com/dup-installer/classes/validation/class.validation.manager.php[210]
+TRACE[6] CLASS___: DUPX_Validation_manager->getValidateData FILE: /home/jawa2439/public_html/laundrymalang.com/dup-installer/ctrls/classes/class.ctrl.ajax.php[171]
+TRACE[7] CLASS___: DUPX_Ctrl_ajax::actions    FILE: /home/jawa2439/public_html/laundrymalang.com/dup-installer/ctrls/classes/class.ctrl.ajax.php[96]
+TRACE[8] CLASS___: DUPX_Ctrl_ajax::controller FILE: /home/jawa2439/public_html/laundrymalang.com/dup-installer/main.installer.php[47]
+
+LOG-TIME[DELTA:   0.00014]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.03882]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00081]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00119]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00080]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: passed
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00035]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00029]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+START TEST "User created cleanup" [CLASS: DUPX_Validation_test_db_user_cleanup]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "User created cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 06:26:54
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "Cuci Springbed dan Cuci Sofa Malang - Cuci Pakaian, Sepatu, Boneka, dan Stroller"
+HOME URL NEW________: "https://laundrymalang.com"
+SITE URL NEW________: "https://laundrymalang.com"
+CONTENT URL NEW_____: "https://laundrymalang.com/wp-content"
+UPLOAD URL NEW______: "https://laundrymalang.com/wp-content/uploads"
+PLUGINS URL NEW_____: "https://laundrymalang.com/wp-content/plugins"
+MUPLUGINS URL NEW___: "https://laundrymalang.com/wp-content/mu-plugins"
+HOME PATH NEW_______: "/home/jawa2439/public_html/laundrymalang.com"
+SITE PATH NEW_______: "/home/jawa2439/public_html/laundrymalang.com"
+CONTENT PATH NEW____: "/home/jawa2439/public_html/laundrymalang.com/wp-content"
+UPLOAD PATH NEW_____: "/home/jawa2439/public_html/laundrymalang.com/wp-content/uploads"
+PLUGINS PATH NEW____: "/home/jawa2439/public_html/laundrymalang.com/wp-content/plugins"
+MUPLUGINS PATH NEW__: "/home/jawa2439/public_html/laundrymalang.com/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: true
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: true
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+REMOVE RENDUNDANT___: false
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "/home/jawa2439/public_html/laundrymalang.com/dup-installer"
+	FILE: "/home/jawa2439/public_html/laundrymalang.com/20230227_cucispringbeddancucisofama_[HASH]_20230227043008_installer-backup.php"
+	FILE: "/home/jawa2439/public_html/laundrymalang.com/20230227_cucispringbeddancucisofama_[HASH]_20230227043008_archive.zip"
+	FILE: "/home/jawa2439/public_html/laundrymalang.com/installer.php"
+	FILE: "/home/jawa2439/public_html/laundrymalang.com/dup-installer-bootlog__181a0b3-27043008.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20230227_cucispringbeddancucisofama_[HASH]_20230227043008_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING
+*** RESET CONFIG FILES END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.0100 sec. - Files processed: 582 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 582
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0518 sec. - Files processed: 908 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 908
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0078 sec. - Files processed: 1,130 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 1130
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0579 sec. - Files processed: 2,219 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2219
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.1528 sec. - Files processed: 3,106 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 3106
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0486 sec. - Files processed: 4,360 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 4360
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0128 sec. - Files processed: 5,639 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 5639
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0102 sec. - Files processed: 7,281 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 7281
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0400 sec. - Files processed: 8,554 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 8554
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.2260 sec. - Files processed: 8,717 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 8717
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0197 sec. - Files processed: 9,369 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 9369
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0472 sec. - Files processed: 9,460 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 9460
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.2691 sec. - Files processed: 9,593 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 9593
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0225 sec. - Files processed: 9,808 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 9808
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.4150 sec. - Files processed: 10,395 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10395
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0558 sec. - Files processed: 10,541 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10541
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 14.6690 sec. - Files processed: 10,548 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10548
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.1700 sec. - Files processed: 10,552 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10552
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 7.7111 sec. - Files processed: 10,556 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10556
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0286 sec. - Files processed: 10,564 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10564
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 13.9811 sec. - Files processed: 10,570 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10570
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 12.9583 sec. - Files processed: 10,582 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10582
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0353 sec. - Files processed: 10,610 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10610
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0893 sec. - Files processed: 10,628 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10628
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 14.3370 sec. - Files processed: 10,658 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10658
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 7.0722 sec. - Files processed: 10,708 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10708
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 11.6126 sec. - Files processed: 10,729 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10729
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 67.6635 sec. - Files processed: 10,732 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10732
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.1049 sec. - Files processed: 10,782 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10782
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 14.7411 sec. - Files processed: 10,835 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10835
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0222 sec. - Files processed: 10,848 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10848
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0691 sec. - Files processed: 10,988 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10988
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0231 sec. - Files processed: 11,028 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 11028
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.3100 sec. - Files processed: 11,132 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 11132
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+FILE EXTRACTION: done processing last file in list of 12414
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 06:31:57 - RUNTIME: 303.1484 sec. - Files processed: 11,506 of 11,506
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 wp_
+
+
+
+********************************************************************************
+* DUPLICATOR PRO INSTALL-LOG
+* STEP-2 START @ 06:31:57
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "wp_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wp_actionscheduler_actions"______________________[ROWS:      15] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_actions]
+TABLE "wp_actionscheduler_claims"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_claims]
+TABLE "wp_actionscheduler_groups"_______________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_groups]
+TABLE "wp_actionscheduler_logs"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_logs]
+TABLE "wp_bv_activities_store"__________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_bv_activities_store]
+TABLE "wp_bv_fw_requests"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_bv_fw_requests]
+TABLE "wp_bv_ip_store"__________________________________[ROWS:    5635] [EXTRACT|REPLACE] [INST NAME: wp_bv_ip_store]
+TABLE "wp_bv_lp_requests"_______________________________[ROWS:       6] [EXTRACT|REPLACE] [INST NAME: wp_bv_lp_requests]
+TABLE "wp_commentmeta"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_commentmeta]
+TABLE "wp_comments"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_comments]
+TABLE "wp_duplicator_packages"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_packages]
+TABLE "wp_duplicator_pro_entities"______________________[ROWS:       6] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_pro_entities]
+TABLE "wp_duplicator_pro_packages"______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_pro_packages]
+TABLE "wp_e_events"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_e_events]
+TABLE "wp_e_submissions"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_e_submissions]
+TABLE "wp_e_submissions_actions_log"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_e_submissions_actions_log]
+TABLE "wp_e_submissions_values"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_e_submissions_values]
+TABLE "wp_links"________________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_links]
+TABLE "wp_options"______________________________________[ROWS:     333] [EXTRACT|REPLACE] [INST NAME: wp_options]
+TABLE "wp_postmeta"_____________________________________[ROWS:    5250] [EXTRACT|REPLACE] [INST NAME: wp_postmeta]
+TABLE "wp_posts"________________________________________[ROWS:     779] [EXTRACT|REPLACE] [INST NAME: wp_posts]
+TABLE "wp_rank_math_analytics_objects"__________________[ROWS:       8] [EXTRACT|REPLACE] [INST NAME: wp_rank_math_analytics_objects]
+TABLE "wp_rank_math_internal_links"_____________________[ROWS:      29] [EXTRACT|REPLACE] [INST NAME: wp_rank_math_internal_links]
+TABLE "wp_rank_math_internal_meta"______________________[ROWS:      11] [EXTRACT|REPLACE] [INST NAME: wp_rank_math_internal_meta]
+TABLE "wp_termmeta"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_termmeta]
+TABLE "wp_terms"________________________________________[ROWS:       8] [EXTRACT|REPLACE] [INST NAME: wp_terms]
+TABLE "wp_term_relationships"___________________________[ROWS:      33] [EXTRACT|REPLACE] [INST NAME: wp_term_relationships]
+TABLE "wp_term_taxonomy"________________________________[ROWS:       8] [EXTRACT|REPLACE] [INST NAME: wp_term_taxonomy]
+TABLE "wp_usermeta"_____________________________________[ROWS:      71] [EXTRACT|REPLACE] [INST NAME: wp_usermeta]
+TABLE "wp_users"________________________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_users]
+TABLE "wp_wfblockediplog"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfblockediplog]
+TABLE "wp_wfblocks7"____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfblocks7]
+TABLE "wp_wfconfig"_____________________________________[ROWS:     260] [EXTRACT|REPLACE] [INST NAME: wp_wfconfig]
+TABLE "wp_wfcrawlers"___________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfcrawlers]
+TABLE "wp_wffilechanges"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wffilechanges]
+TABLE "wp_wffilemods"___________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wffilemods]
+TABLE "wp_wfhits"_______________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfhits]
+TABLE "wp_wfhoover"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfhoover]
+TABLE "wp_wfissues"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfissues]
+TABLE "wp_wfknownfilelist"______________________________[ROWS:    7993] [EXTRACT|REPLACE] [INST NAME: wp_wfknownfilelist]
+TABLE "wp_wflivetraffichuman"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wflivetraffichuman]
+TABLE "wp_wflocs"_______________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wflocs]
+TABLE "wp_wflogins"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wflogins]
+TABLE "wp_wfls_2fa_secrets"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfls_2fa_secrets]
+TABLE "wp_wfls_settings"________________________________[ROWS:      21] [EXTRACT|REPLACE] [INST NAME: wp_wfls_settings]
+TABLE "wp_wfnotifications"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfnotifications]
+TABLE "wp_wfpendingissues"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfpendingissues]
+TABLE "wp_wfreversecache"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfreversecache]
+TABLE "wp_wfsnipcache"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfsnipcache]
+TABLE "wp_wfstatus"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfstatus]
+TABLE "wp_wftrafficrates"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wftrafficrates]
+TABLE "wp_wpfm_backup"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wpfm_backup]
+TABLE "wp_yoast_indexable"______________________________[ROWS:     151] [EXTRACT|REPLACE] [INST NAME: wp_yoast_indexable]
+TABLE "wp_yoast_indexable_hierarchy"____________________[ROWS:      93] [EXTRACT|REPLACE] [INST NAME: wp_yoast_indexable_hierarchy]
+TABLE "wp_yoast_migrations"_____________________________[ROWS:      23] [EXTRACT|REPLACE] [INST NAME: wp_yoast_migrations]
+TABLE "wp_yoast_primary_term"___________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_yoast_primary_term]
+TABLE "wp_yoast_seo_links"______________________________[ROWS:      17] [EXTRACT|REPLACE] [INST NAME: wp_yoast_seo_links]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.5.17 -- Build Server: 10.4.20
+FILE SIZE:	dup-database__[HASH].sql (39.7MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE-GLOBAL:	NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`jawa2439_userr`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+DATABASE CHUNK: CREATION TABLE MARKER FOUND
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 14418448
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 28335251
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 41079339
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	369
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wp_actionscheduler_actions"______________________[ROWS:    15]
+TABLE "wp_actionscheduler_claims"_______________________[ROWS:     0]
+TABLE "wp_actionscheduler_groups"_______________________[ROWS:     2]
+TABLE "wp_actionscheduler_logs"_________________________[ROWS:     0]
+TABLE "wp_bv_activities_store"__________________________[ROWS:     1]
+TABLE "wp_bv_fw_requests"_______________________________[ROWS:     0]
+TABLE "wp_bv_ip_store"__________________________________[ROWS:  5635]
+TABLE "wp_bv_lp_requests"_______________________________[ROWS:     6]
+TABLE "wp_commentmeta"__________________________________[ROWS:     0]
+TABLE "wp_comments"_____________________________________[ROWS:     0]
+TABLE "wp_duplicator_packages"__________________________[ROWS:     0]
+TABLE "wp_duplicator_pro_entities"______________________[ROWS:     6]
+TABLE "wp_duplicator_pro_packages"______________________[ROWS:     1]
+TABLE "wp_e_events"_____________________________________[ROWS:     0]
+TABLE "wp_e_submissions"________________________________[ROWS:     0]
+TABLE "wp_e_submissions_actions_log"____________________[ROWS:     0]
+TABLE "wp_e_submissions_values"_________________________[ROWS:     0]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_options"______________________________________[ROWS:   333]
+TABLE "wp_postmeta"_____________________________________[ROWS:  5250]
+TABLE "wp_posts"________________________________________[ROWS:   779]
+TABLE "wp_rank_math_analytics_objects"__________________[ROWS:     8]
+TABLE "wp_rank_math_internal_links"_____________________[ROWS:    29]
+TABLE "wp_rank_math_internal_meta"______________________[ROWS:    11]
+TABLE "wp_term_relationships"___________________________[ROWS:    33]
+TABLE "wp_term_taxonomy"________________________________[ROWS:     8]
+TABLE "wp_termmeta"_____________________________________[ROWS:     0]
+TABLE "wp_terms"________________________________________[ROWS:     8]
+TABLE "wp_usermeta"_____________________________________[ROWS:    71]
+TABLE "wp_users"________________________________________[ROWS:     3]
+TABLE "wp_wfblockediplog"_______________________________[ROWS:     0]
+TABLE "wp_wfblocks7"____________________________________[ROWS:     0]
+TABLE "wp_wfconfig"_____________________________________[ROWS:   260]
+TABLE "wp_wfcrawlers"___________________________________[ROWS:     0]
+TABLE "wp_wffilechanges"________________________________[ROWS:     0]
+TABLE "wp_wffilemods"___________________________________[ROWS:     0]
+TABLE "wp_wfhits"_______________________________________[ROWS:     0]
+TABLE "wp_wfhoover"_____________________________________[ROWS:     0]
+TABLE "wp_wfissues"_____________________________________[ROWS:     0]
+TABLE "wp_wfknownfilelist"______________________________[ROWS:  7993]
+TABLE "wp_wflivetraffichuman"___________________________[ROWS:     0]
+TABLE "wp_wflocs"_______________________________________[ROWS:     0]
+TABLE "wp_wflogins"_____________________________________[ROWS:     0]
+TABLE "wp_wfls_2fa_secrets"_____________________________[ROWS:     0]
+TABLE "wp_wfls_settings"________________________________[ROWS:    21]
+TABLE "wp_wfnotifications"______________________________[ROWS:     0]
+TABLE "wp_wfpendingissues"______________________________[ROWS:     0]
+TABLE "wp_wfreversecache"_______________________________[ROWS:     0]
+TABLE "wp_wfsnipcache"__________________________________[ROWS:     0]
+TABLE "wp_wfstatus"_____________________________________[ROWS:     0]
+TABLE "wp_wftrafficrates"_______________________________[ROWS:     0]
+TABLE "wp_wpfm_backup"__________________________________[ROWS:     0]
+TABLE "wp_yoast_indexable"______________________________[ROWS:   151]
+TABLE "wp_yoast_indexable_hierarchy"____________________[ROWS:    93]
+TABLE "wp_yoast_migrations"_____________________________[ROWS:    23]
+TABLE "wp_yoast_primary_term"___________________________[ROWS:     1]
+TABLE "wp_yoast_seo_links"______________________________[ROWS:    17]
+
+INSERT DATA RUNTIME: 15.7838 sec.
+STEP-2 COMPLETE @ 06:32:13 - RUNTIME: 15.7838 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /home/900667.cloudwaysapps.com/tpvbmytuxe/public_html REPLACE: /home/jawa2439/public_html/laundrymalang.com [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 06:32:13
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 9223372036854775807], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = 1], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = 1]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 499M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+CLEAN OPTIONS [wp_options]
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+	`option_name` IN ("duplicator_pro_ui_view_state","duplicator_pro_package_active","duplicator_pro_settings")
+DATABASE OPTIONS DELETED [ROWS:    54]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:    15][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/tpvbmytuxe/public_html" => "/home/jawa2439/public_html/laundrymalang.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_actions][0]
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/tpvbmytuxe/public_html" => "/home/jawa2439/public_html/laundrymalang.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_groups][0]
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bv_activities_store"__________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/tpvbmytuxe/public_html" => "/home/jawa2439/public_html/laundrymalang.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_bv_activities_store][0]
+
+EVALUATE TABLE: "wp_bv_fw_requests"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bv_ip_store"__________________________________[ROWS:  5635][PG:   6][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bv_lp_requests"_______________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/tpvbmytuxe/public_html" => "/home/jawa2439/public_html/laundrymalang.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_bv_lp_requests][0]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_duplicator_pro_entities"______________________[ROWS:     6][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/tpvbmytuxe/public_html" => "/home/jawa2439/public_html/laundrymalang.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_duplicator_pro_entities][0]
+
+EVALUATE TABLE: "wp_duplicator_pro_packages"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_events"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_submissions"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_submissions_actions_log"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_submissions_values"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   279][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/tpvbmytuxe/public_html" => "/home/jawa2439/public_html/laundrymalang.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_options][0]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  5250][PG:   6][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/tpvbmytuxe/public_html" => "/home/jawa2439/public_html/laundrymalang.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][4]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][5]
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   779][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/tpvbmytuxe/public_html" => "/home/jawa2439/public_html/laundrymalang.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][0]
+
+EVALUATE TABLE: "wp_rank_math_analytics_objects"__________________[ROWS:     8][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/tpvbmytuxe/public_html" => "/home/jawa2439/public_html/laundrymalang.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_rank_math_analytics_objects][0]
+
+EVALUATE TABLE: "wp_rank_math_internal_links"_____________________[ROWS:    29][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/tpvbmytuxe/public_html" => "/home/jawa2439/public_html/laundrymalang.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_rank_math_internal_links][0]
+
+EVALUATE TABLE: "wp_rank_math_internal_meta"______________________[ROWS:    11][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/tpvbmytuxe/public_html" => "/home/jawa2439/public_html/laundrymalang.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_terms][0]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    33][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/tpvbmytuxe/public_html" => "/home/jawa2439/public_html/laundrymalang.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    71][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/tpvbmytuxe/public_html" => "/home/jawa2439/public_html/laundrymalang.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_usermeta][0]
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/tpvbmytuxe/public_html" => "/home/jawa2439/public_html/laundrymalang.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_users][0]
+
+EVALUATE TABLE: "wp_wfblockediplog"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfblocks7"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfconfig"_____________________________________[ROWS:   260][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/tpvbmytuxe/public_html" => "/home/jawa2439/public_html/laundrymalang.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfconfig][0]
+
+EVALUATE TABLE: "wp_wfcrawlers"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wffilechanges"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wffilemods"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfhits"_______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfhoover"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfissues"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfknownfilelist"______________________________[ROWS:  7993][PG:   8][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/tpvbmytuxe/public_html" => "/home/jawa2439/public_html/laundrymalang.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][4]
+	CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][5]
+	CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][6]
+	CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][7]
+
+EVALUATE TABLE: "wp_wflivetraffichuman"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wflocs"_______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wflogins"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfls_2fa_secrets"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfls_settings"________________________________[ROWS:    21][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/tpvbmytuxe/public_html" => "/home/jawa2439/public_html/laundrymalang.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfls_settings][0]
+
+EVALUATE TABLE: "wp_wfnotifications"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfpendingissues"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfreversecache"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfsnipcache"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfstatus"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wftrafficrates"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpfm_backup"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yoast_indexable"______________________________[ROWS:   151][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/tpvbmytuxe/public_html" => "/home/jawa2439/public_html/laundrymalang.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_yoast_indexable][0]
+
+EVALUATE TABLE: "wp_yoast_indexable_hierarchy"____________________[ROWS:    93][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yoast_migrations"_____________________________[ROWS:    23][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/tpvbmytuxe/public_html" => "/home/jawa2439/public_html/laundrymalang.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_yoast_migrations][0]
+
+EVALUATE TABLE: "wp_yoast_primary_term"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/tpvbmytuxe/public_html" => "/home/jawa2439/public_html/laundrymalang.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_yoast_primary_term][0]
+
+EVALUATE TABLE: "wp_yoast_seo_links"______________________________[ROWS:    17][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/900667.cloudwaysapps.com/tpvbmytuxe/public_html" => "/home/jawa2439/public_html/laundrymalang.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_yoast_seo_links][0]
+--------------------------------------
+SCANNED:	Tables:57 	|	 Rows:14931 	|	 Cells:73913 
+UPDATED:	Tables:3 	|	 Rows:8115 	|	 Cells:8115 
+ERRORS:		0 
+RUNTIME:	2.354000 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [rem_licenze_key][][]
+
+====================================
+REMOVE LICENSE KEY
+====================================
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:/home/jawa2439/public_html/laundrymalang.com/wp-config.php
+New .htaccess file created:/home/jawa2439/public_html/laundrymalang.com/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE WP_PLUGIN_DIR "/home/jawa2439/public_html/laundrymalang.com/wp-content/plugins"
+	UPDATE WPMU_PLUGIN_DIR "/home/jawa2439/public_html/laundrymalang.com/wp-content/mu-plugins"
+	UPDATE DB_NAME ""jawa2439_drylang""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_CACHE "false"
+	WP CONFIG UPDATE WP_DEBUG "false"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+ - REMOVED 1 storage items
+ - REMOVED 0 schedule items
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+
+*** SET FOLDER PERMISSION AFTER EXTRACTION
+--------------------------------------
+PATHS MAPPING : "/home/jawa2439/public_html/laundrymalang.com"
+--------------------------------------
+SET FOLDER PERMISSION DONE
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 06:32:17 - RUNTIME: 4.3078 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+====================================
+LOG-TIME[/home/jawa2439/public_html/laundrymalang.com/dup-installer/ctrls/ctrl.base.php:232][DELTA:   1.22628]  MESSAGE:END RENDER PAGE
